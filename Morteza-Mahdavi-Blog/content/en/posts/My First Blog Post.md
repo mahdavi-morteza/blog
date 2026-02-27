@@ -1,5 +1,5 @@
 ---
-title: My Posts
+title: My First Blog Post
 date: 2026-02-27
 draft: false
 categories: General
