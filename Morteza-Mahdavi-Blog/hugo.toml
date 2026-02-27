@@ -76,7 +76,18 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
+  [[Languages.en-gb.params.socialIcons]]
+  name = "github"
+  url = "https://github.com/mahdavi-morteza"
 
+  [[Languages.en-gb.params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/YOUR_HANDLE"
+
+  # Optional examples:
+  # [[Languages.en-gb.params.socialIcons]]
+  # name = "linkedin"
+  # url = "https://www.linkedin.com/in/YOURNAME/"
 [Languages.en-gb.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
@@ -97,11 +108,3 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 # Allow to override `browserconfig.xml` params (configuration for windows embedded browsers)
 [params.browserconfig]
   TileColor = "#2d89ef" # default windows 10 blue tile color
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/mahdavi-morteza"
-
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com"
