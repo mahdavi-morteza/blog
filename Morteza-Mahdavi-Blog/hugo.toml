@@ -102,3 +102,9 @@ url = "https://github.com/mahdavi-morteza"
 [[params.socialIcons]]
 name = "twitter"
 url = "https://twitter.com"
+[author]
+  name = "Morteza Mahdavi"
+  email = "mahdavi.morteza@outlook.com"
+[params.author]
+  name = "Morteza Mahdavi"
+  email = "mahdavi.morteza@outlook.com"
