@@ -12,7 +12,13 @@ theme = "hugo-blog-awesome"
 
 author = { name = "Morteza Mahdavi", email = "mahdavi.morteza@outlook.com" }
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+#Disable RSS
 disableKinds = ["RSS"]
+
 # Enable emojis globally
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
@@ -53,6 +59,22 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     name = 'About'
     url = '/about/'
     weight = 30
+  [[Languages.en-gb.menu.main]]
+    pageRef="categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 25
+
+  [[Languages.en-gb.menu.main]]
+    pageRef="tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 26
+  [[Languages.en-gb.menu.main]]
+    pageRef="search"
+    name = "Search"
+    url = "/search/"
+    weight = 15
 
 [Languages.en-gb.params]
   sitename = "Morteza Mahdavi Blog"
@@ -65,7 +87,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
-  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+#  additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
   # Your custom scripts will be concatenated to one file `custom.js`.
   # When building for production it will be minified.
