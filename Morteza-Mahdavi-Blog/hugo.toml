@@ -6,7 +6,7 @@ languageCode = "en-us"
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
 
-title = "Morteza Mahdavi Blog"
+title = "Morteza Mahdavi"
 
 theme = "hugo-blog-awesome"
 
@@ -77,7 +77,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     weight = 15
 
 [Languages.en-gb.params]
-  sitename = "Morteza Mahdavi Blog"
+  sitename = "Morteza Mahdavi"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything>
   # the default value is set to 'auto'.
@@ -113,9 +113,11 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [Languages.en-gb.params.author]
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Morteza Mahdavi Blog"
+  intro = "Morteza Mahdavi"
   name = "Morteza Mahdavi"
-  description = "Morteza Mahdavi Blog: Here I share and document my Journey and demonstrate what I learn."
+  description = """Linux • Windows Server • Docker • Kubernetes - Practical notes, labs, and projects.  
+  
+  Building reliable infrastructure through hands-on learning and documentation."""
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
