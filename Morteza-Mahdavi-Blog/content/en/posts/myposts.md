@@ -1,9 +1,10 @@
-+++
-title = 'My Fisrt post'
-date = 2026-02-26T20:12:48+01:00
-categories: ["Linux" , "Devops"]
-tags: ["hugo, "github"]
-+++
+---
+title: "My Posts"
+date: 2026-02-27
+draft: false
+categories: ["Linux", "DevOps"]
+tags: ["hugo", "github-pages"]
+---
 this is some content
 
 # this is the titel
