@@ -51,7 +51,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     weight = 10
   [[Languages.en-gb.menu.main]]
     pageRef="posts"
-    name = 'Posts'
+    name = 'Blog'
     url = '/posts/'
     weight = 20
   [[Languages.en-gb.menu.main]]
