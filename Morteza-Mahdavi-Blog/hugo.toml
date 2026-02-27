@@ -11,6 +11,8 @@ title = "Morteza Mahdavi Blog"
 theme = "hugo-blog-awesome"
 
 author = { name = "Morteza Mahdavi", email = "mahdavi.morteza@outlook.com" }
+
+disableKinds = ["RSS"]
 # Enable emojis globally
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
