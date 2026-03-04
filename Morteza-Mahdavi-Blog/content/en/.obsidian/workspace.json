@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/My First Blog Post.md",
+                "file": "posts/containers/docker/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My First Blog Post"
+              "title": "index"
             }
           }
         ]
@@ -183,9 +183,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "92bcf60693ba7f45",
+  "active": "91b341173abfa2d6",
   "lastOpenFiles": [
-    "about.md",
-    "posts/My First Blog Post.md"
+    "posts/containers/docker",
+    "posts/containers",
+    "posts/My First Blog Post.md",
+    "posts/containers/docker/index.md",
+    "posts/Untitled.md",
+    "about.md"
   ]
 }
